@@ -1,10 +1,9 @@
-#include "FileHandle.h"
+﻿#include "FileHandle.h"
 #include <iostream>
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main(int argc, char const *argv[]) // Tham số dòng lệnh
 {
-	using namespace std;
 	if (argc != 3)
 	{
 		cout << "Error argument" << endl;

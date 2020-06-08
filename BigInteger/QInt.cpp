@@ -91,9 +91,7 @@ string QInt::ToString(int radix) const
 	switch (radix)
 	{
 	case 2:
-	{
-			  result = QIntToBinary();
-	}
+		result = QIntToBinary();
 		break;
 	case 10:
 		result = QIntToDecimal();
@@ -105,7 +103,6 @@ string QInt::ToString(int radix) const
 		throw "Error radix number in your method ParseQInt.";
 		break;
 	}
-
 	return result;
 }
 
